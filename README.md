@@ -5,7 +5,7 @@ The whole project is built to demonstrate 2 scenarios:
 * In one Thread().start() is used to receive NTP time
 * In another rxjava method used to achieve the same effect
 
-<img width="250" src="https://imgur.com/RLzLNjc" />
+<img width="250" src="https://i.imgur.com/RLzLNjc.jpg" />
 
 The demo application is built from two mixed source codes:
 1) Google Pay testing code taken from https://developers.google.com/pay/api/android/guides/tutorial#example
