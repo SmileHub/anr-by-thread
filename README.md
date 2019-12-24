@@ -31,3 +31,7 @@ On the way i have few hypothesis and thoughts:
 1) Could the ANR issue appear only on my device and no one else suffers the issue?
 2) Pressing "back" somehow might relte to the Thread which might be not fully handled after it's completion
 while rxjava way does something extra to handle it's Threads inside.
+
+
+What is more interesting is that if I uncomment the Toast in mian activity ANR case disappears, although Toast isn't displayed as it's called from the non UI thread:
+//Toast.makeText(mGooglePayButton.getContext(), "onTimeReceived done", Toast.LENGTH_LONG).show();//to make same environment as in PaymentsUtil
